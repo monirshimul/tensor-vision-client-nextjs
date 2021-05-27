@@ -21,9 +21,8 @@ function Banner() {
                                 height="250"
                                 alt="Picture"
                             />
-                            <p className="px-5 py-2" style={{borderRadius:"10px", width:"350px", marginTop:"20px"}}>Now you can control your customer.Your customer will order your product
-                                through your order management portal.Accelerate your business by combining facebook and
-                                        <br /> our Store Management.
+                            <p className="px-5 py-2" style={{borderRadius:"10px", marginTop:"20px"}}>Now you can control your customer.Your customer will order your product
+                                through your order management portal.
                                     </p>
                         </div>
                         <div className={`col-sm-3 ${style.motoCard}`}>
@@ -35,9 +34,8 @@ function Banner() {
                                 height="250"
                                 alt="Picture"
                             />
-                            <p className="px-5 py-2" style={{borderRadius:"10px", width:"350px", marginTop:"20px"}}>Now you can control your customer.Your customer will order your product<br />
-                                through your order management portal.Accelerate your business by combining facebook and
-                                        <br /> our Store Management.
+                            <p className="px-5 py-2" style={{borderRadius:"10px", marginTop:"20px"}}>Now you can control your customer.Your customer will order your product<br />
+                                through your order management portal.
                                     </p>
                         </div>
                         <div className={`col-sm-3 ${style.motoCard}`}>
@@ -49,8 +47,8 @@ function Banner() {
                                 height="250"
                                 alt="Picture"
                             />
-                            <p className="px-5 py-2" style={{borderRadius:"10px", width:"350px", marginTop:"20px"}}>Now you can control your customer.Your customer will order your product
-                                through your order management portal.Accelerate your business by combining facebook and our Store Management.
+                            <p className="px-5 py-2" style={{borderRadius:"10px", marginTop:"20px"}}>Now you can control your customer.Your customer will order your product
+                                through your order management portal.
                                     </p>
                         </div>
 
