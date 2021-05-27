@@ -1,0 +1,141 @@
+
+.header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(6, 184, 175, 0.6), rgba(255, 255, 255, 0.5)),
+    url(/client2.jpg) center/cover fixed no-repeat;
+    
+
+}
+
+.headTxt{
+    padding: 150px 20px 50px 20px;
+    text-align: center;
+    
+}
+
+.headTxt h1{
+    color: #edffec;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+}
+.headTxt h2{
+    color: #1f441e;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 2px;
+    
+}
+.headTxt h4{
+    color: #1f441e;
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 1px;
+    
+    
+}
+
+.joinBtn {
+    height: 40px;
+    background: linear-gradient(
+      90deg,
+      rgb(0, 32, 36) 0%,
+      rgb(62, 139, 139) 0%,
+      rgb(38, 139, 139) 51%,
+      rgb(78, 167, 173) 100%,
+      rgb(58, 139, 139) 100%
+    );
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+    box-shadow: 0px 5px 10px rgba(77, 78, 78, 0.2);
+    
+  }
+  
+  .joinBtn h5 {
+    font-size: 14px;
+    padding: 0 10px 0 10px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+  }
+  
+  .joinBtn:hover h5 {
+    letter-spacing: 3px;
+  }
+
+  .detailsBtn{
+    width: 100px;
+    min-height: 40px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .detailsBtn h5{
+    font-size: 14px;
+    color: #333;
+    padding-top: 5px;
+    
+    
+  }
+
+  .detailsBtn:hover{
+    background: #1f441e;
+  }
+
+  .detailsBtn:hover h5{
+    color: #fff;
+    
+  }
+  
+
+
+  .package{
+    /* background: "rgba(255,255,255, 0.1)", backdropFilter: "blur(10px)", textAlign:"left"; */
+    background: rgba(255,255,255, 0.3);
+    backdrop-filter: blur(10px);
+    text-align: start;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 25px;
+  }
+
+  .priceCard{
+    /* border:"1px solid #1eae98", borderRadius:"10px", paddingBottom:"20px" */
+    /* border: 1px solid #1eae98; */
+    border-radius: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+  }
+
+  .motoCard {
+    min-height: 40px;
+    background-image: linear-gradient(to right, #ffffff38, #ffffff6c, #ffffff2f);
+    background-size: 200%;
+    color: #333;
+    font-size: 14px;
+  
+    transition: all 0.5s ease;
+  
+    padding: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.24);
+    /* box-shadow: -3px -3px 7px #ffffff73, 3px 3px 3px rgba(94, 104, 121, 0.288); */
+  }
+  
+  .motoCard:hover {
+    background-position: right;
+  }

@@ -1,0 +1,294 @@
+.motoBg{
+  
+    background-color: #00adb5;
+    clip-path: polygon(0% 2%, 100% 2%, 100% 100%, 0 100%);
+    /* clip-path: circle(60% at 50% 50%); */
+    box-shadow: 0px 5px 10px rgba(77, 78, 78, 0.1);
+  }
+  
+  
+  
+  
+  .motoLine {
+    /* fontWeight: "100", color: "#51c2d5", textTransform: "uppercase", fontFamily: "'Trirong', serif"; */
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 200;
+    letter-spacing: 10px;
+    font-size: 55px;
+    transition: 0.5s;
+  }
+  .motoLineBangla{
+    color: #214252;
+    font-family: 'Atma', cursive;
+    font-weight: 200;
+    letter-spacing: 7px;
+    font-size: 65px;
+    transition: 0.5s;
+  }
+  
+  .motoLine:hover {
+    letter-spacing: 15px;
+  }
+  
+  .motoLineBangla:hover{
+    letter-spacing: 15px;
+  }
+  
+  .anImg{
+    position: relative;
+    animation-name: upDown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+  }
+  
+  @keyframes upDown{
+  
+    0%   {top:0px;}
+    /* 25%  {top:5px;} */
+    50%  {top:15px;}
+    /* 75%  {top:15px;} */
+    100% {top:0px;}
+  
+  }
+
+  .motoCard {
+    min-height: 40px;
+    background-image: linear-gradient(to right, #ffffff38, #ffffff6c, #ffffff2f);
+    background-size: 200%;
+    color: #333;
+    font-size: 14px;
+  
+    transition: all 0.5s ease;
+  
+    padding: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.24);
+    /* box-shadow: -3px -3px 7px #ffffff73, 3px 3px 3px rgba(94, 104, 121, 0.288); */
+  }
+  
+  .motoCard:hover {
+    background-position: right;
+  }
+  
+
+  .motoDes{
+    font-family: 'Atma', cursive;
+    color: #214252;
+    letter-spacing: 1px;
+    font-size: 27px;
+    font-weight: lighter;
+  
+    
+  }
+  .motoDesTwo{
+    font-family: 'Rubik', sans-serif;
+    color: #194350;
+    letter-spacing: 1px;
+    font-size: 21px;
+    font-weight: lighter;
+    
+  }
+  
+  .joinBtn {
+    width: 120px;
+    height: 40px;
+    background: linear-gradient(
+      90deg,
+      rgb(0, 32, 36) 0%,
+      rgb(38, 204, 204) 0%,
+      rgb(77, 198, 198) 51%,
+      rgb(60, 190, 199) 100%,
+      rgb(9, 121, 121) 100%
+    );
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 0 auto;
+    box-shadow: 0px 5px 10px rgba(77, 78, 78, 0.2);
+    
+  }
+  
+  .joinBtn h5 {
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 40px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+  }
+  
+  .joinBtn:hover h5 {
+    letter-spacing: 3px;
+  }
+  
+  
+  .cardSec{
+    position: relative;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #f7f9fc;
+  }
+  
+  .cardSec::before{
+    content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient( #fafaf5, #f8f1f1);
+      clip-path: circle(50% at right 10%);
+  }
+  
+  .cardSec::after{
+    content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      /* background: linear-gradient(#dbf6e9, #edffec); */
+      background: linear-gradient( #edffec, #f4f9f9);
+      clip-path: circle(50% at left 90%);
+  }
+  
+  .cardContainer{
+    position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 1200px;
+      flex-wrap: wrap;
+      z-index: 1;
+  }
+  
+  .cardContainer .cardHolder
+  {
+    position: relative;
+      width: 280px;
+      height: 400px;
+      margin: 30px;
+      /* box-shadow: 0.7px 0.7px 0.7px rgba(100, 97, 97, 0.2); */
+      box-shadow: 0px 5px 10px rgba(77, 78, 78, 0.1);
+      border-radius: 15px;
+      background: #f4f9f9;
+      /* background: rgba(216, 245, 248, 0.164); */
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-top: 1px solid rgba(185, 185, 185, 0.2);
+      border-left: 1px solid rgba(185, 185, 185, 0.2);
+      backdrop-filter: blur(5px);
+  }
+  
+  .cardContainer .cardHolder .content
+  {
+      padding: 20px;
+      text-align: center;
+      transition: 0.5s;
+  }
+  
+  .cardContainer .cardHolder .content h2
+  {
+    position: absolute;
+    font-family: 'Atma', cursive;
+      top: 15px;
+      left:25px;
+      font-size: 2em;
+      /* color: rgba(153, 194, 7, 0.5); */
+  
+      color: #fc8621;
+      pointer-events: none;
+  }
+  
+  .cardContainer .cardHolder .content h3
+  {
+    position: absolute;
+    font-family: 'Atma', cursive;
+    top: 15px;
+    right: 25px;
+    font-size: 2em;
+      color: #214252;
+      z-index: 1;
+  }
+  
+  .cardContainer .cardHolder .content p
+  {
+    font-size: 1em;
+    font-family: 'Rubik', sans-serif;
+    
+    color: #707070;
+    font-weight: 300;
+    
+  }
+  
+  /* .cardContainer .cardHolder .content a
+  {
+    position: relative;
+      display: inline-block;
+      font-family: 'Atma', cursive;
+      padding: 8px 20px;
+      margin-top: 15px;
+      background: rgba(65, 102, 226, 0.8);
+      border-radius: 50px;
+      text-decoration: none;
+      color: #fff;
+      border-top: 1px solid #d2d3c9;
+      border-left: 1px solid #d2d3c9;
+      font-weight: 500;
+      box-shadow: 0px 5px 10px rgba(77, 78, 78, 0.5);
+  } */
+  
+  .orderSec{
+    background: #f7f9fc;
+    padding: 100px 0px;
+  }
+  .orderSecTwo{
+    background: #fff;
+    padding: 100px 0px;
+  }
+  
+  .orderSec h1{
+    font-family: 'Atma', cursive;
+    color: #214252;
+    font-size: 3.5em;
+    font-weight: 500;
+    letter-spacing: 5px;
+  }
+  .orderSec p{
+    font-size: 1.2em;
+    font-family: 'Rubik', sans-serif;
+    
+    color: #707070;
+    font-weight: 300;
+  }
+  
+  .orderSecBtn{
+    width: 150px;
+    height: 60px;
+    background: #f3f4f5;
+    border-radius: 5px;
+    border: 2px solid #214252;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.5s all ease;
+    margin: 0 auto;
+  }
+  
+  .orderSecBtn:hover{
+    letter-spacing: 2px;
+    border: 2px solid #a4ebf3;
+    background: #214252;
+    color: #a4ebf3;
+  }
+  
+  
+  
